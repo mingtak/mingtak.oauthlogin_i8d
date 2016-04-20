@@ -50,7 +50,7 @@ class OauthWorkFlow(object):
 
     def createUser(self, userid, email, properties):
         if not email:
-            email = u'nobody@opptoday.com'
+            email = u'nobody@i8d.com.tw'
         user = api.user.create(username=userid, email=email, properties=properties,)
 #        import pdb; pdb.set_trace()
 #        if user.getProperty('picture'):
